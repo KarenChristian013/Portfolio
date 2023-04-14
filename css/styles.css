@@ -247,7 +247,7 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color: #d90429;
   text-decoration: underline;
 }
 a:hover {
@@ -4140,7 +4140,7 @@ textarea.form-control-lg {
 }
 
 .navbar-dark {
-  --bs-navbar-color: rgba(255, 255, 255, 0.55);
+  --bs-navbar-color: rgba(20, 1, 1, 0.473);
   --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
   --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
   --bs-navbar-active-color: #fff;
@@ -10969,4 +10969,26 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+#sideNav{
+  background-color: #d90429;
+}
+
+#heading-name{
+  color:#d90429;
+}
+
+.skills-logo{
+  height: auto;
+  width: 100px;
+}
+
+#html-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.dates {
+  color: #d90429;
 }
