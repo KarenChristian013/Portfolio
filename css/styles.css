@@ -668,7 +668,7 @@ progress {
     max-width: 1320px;
   }
 }
-/* .row {
+.row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
@@ -684,7 +684,7 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
-} */
+}
 
 .col {
   flex: 1 0 0%;
@@ -10991,37 +10991,23 @@ section.resume-section .resume-section-content {
 
 .dates {
   color: #d90429;
-  font-size: large;
+  font-size: medium;
   font-weight: 300;
 }
+ 
+@media only screen and (max-width: 767px){
+  .skills-logo-education{
+    width: 200px !important;
+    height: auto;
+  }
 
-.card-title{
-  text-align: center;
-  position: relative;
+  .job-history{
+    flex-direction: column-reverse !important;
+  }
 }
-
-
-.skills-logo-education{
-  height:auto;
-  width: 30px;
-  position: relative;
-  left:35px;
-  bottom: 35px;
-}
-
-.card-border{
-  display: flex;
-  flex-direction: row;
-}
-
-.experience-logo{
-  position: relative;
-  left: 1000px;
-  top: 75px;
-}
-
-.employment-dates{
-  position: relative;
-  right:150px;
-  top: 100px;
+.card-shadow{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px red;
+  background-color: #ffffff;
 }
