@@ -11027,11 +11027,6 @@ section.resume-section .resume-section-content {
   background-color: #ffffff;
 }
 
-/* .padded-dates{
-  padding-top: 400px;
-} */
-
-
 @media only screen and (min-width: 1200px){
   .education-cards{
     min-height: 215px
@@ -11049,37 +11044,46 @@ section.resume-section .resume-section-content {
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
-  height:400px;
+  height:600px;
+  font-weight: bold;
+  text-shadow:2px 2px black;
 }
 .slide2{
   background-image: url('../img/skyAndAsh.jpg');
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
-  height:400px;
-
+  height:600px;
+  font-weight: bold;
+  text-shadow:2px 2px black;
 }
 .slide3{
   background-image: url('../img/ashdonAndMiles.jpg');
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
-  height:400px;
-  
+  height:600px;
+  font-weight: bold;
+  text-shadow:2px 2px black;
+   
 }
 .slide4{
   background-image: url('../img/ryleigh.jpg');
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
-  height:400px;
+  height:600px;
+  font-weight: bold;
+  text-shadow:2px 2px black;
 }
 .slide5{
   background-image: url('../img/jacksonAndAbby.jpg');
-  background-position: center top;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  height:400px;
+  height:600px;
+  font-weight: bold;
+  text-shadow:2px 2px black;
 }
 
 
@@ -11090,8 +11094,9 @@ section.resume-section .resume-section-content {
   }
 }
 
-@media only screen and (max-width: 1400px){
+@media only screen and (max-width: 1200px){
   #ka-dates{
     margin-top: 3vw;
   }
 }
+
