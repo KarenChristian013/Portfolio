@@ -10982,12 +10982,27 @@ section.resume-section .resume-section-content {
 .skills-logo{
   height: auto;
   width: 100px;
-}
+  border-radius: 30%;
+  }
+
+.social-logo{
+    height: auto;
+    width: 100px;
+    border-radius: 20%;
+  }
+
+.experience-logo{
+  height:auto;
+  width: 100px;
+  border-radius: 50%;
+  }
 
 #html-logo {
   height: 100px;
   width: 100px;
+   
 }
+
 
 .dates {
   color: #d90429;
@@ -11010,4 +11025,73 @@ section.resume-section .resume-section-content {
   padding: 10px;
   box-shadow: 5px 10px red;
   background-color: #ffffff;
+}
+
+/* .padded-dates{
+  padding-top: 400px;
+} */
+
+
+@media only screen and (min-width: 1200px){
+  .education-cards{
+    min-height: 215px
+  }
+}
+@media only screen and (max-width: 1199px){
+  .education-cards{
+    min-height: 385px
+  }
+}
+
+
+.slide1{
+  background-image: url('../img/meAndStan.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:400px;
+}
+.slide2{
+  background-image: url('../img/skyAndAsh.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:400px;
+
+}
+.slide3{
+  background-image: url('../img/ashdonAndMiles.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:400px;
+  
+}
+.slide4{
+  background-image: url('../img/ryleigh.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:400px;
+}
+.slide5{
+  background-image: url('../img/jacksonAndAbby.jpg');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:400px;
+}
+
+
+@media only screen and (max-width: 767px){
+  .skills-logo-education{
+    display:flex;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1400px){
+  #ka-dates{
+    margin-top: 3vw;
+  }
 }
